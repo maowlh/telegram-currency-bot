@@ -1,0 +1,25 @@
+{
+  "name": "telegram-currency-bot",
+  "version": "1.0.0",
+  "description": "A simple Telegram bot for currency to toman conversion",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maowlh/telegram-currency-bot.git"
+  },
+  "keywords": ["telegram", "bot", "currency", "toman", "crypto", "fiat"],
+  "author": "Mark Hodges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maowlh/telegram-currency-bot/issues"
+  },
+  "homepage": "https://github.com/maowlh/telegram-currency-bot#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
+
